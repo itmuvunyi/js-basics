@@ -32,3 +32,20 @@ let users = ["Alice", "Bob", "Charlie"];
 let userItems = users.map(user => "<li>" + user + "</li>");
 
 console.log(userItems);
+
+let favActorFName = 'Willy';
+let favActorLastName = 'Smith';
+let fullName = favActorFName + " " +favActorLastName;
+let uppercase = fullName.toUpperCase();
+let message = `My favorite actor is ${uppercase}, `;
+message += 'his show best is Silicon Valley';
+console.log(message);
+
+let money = '50';
+
+// Convert string to number
+// money = parseInt(money);
+money = money.toString();
+
+console.log(money);
+console.log(typeof money);
