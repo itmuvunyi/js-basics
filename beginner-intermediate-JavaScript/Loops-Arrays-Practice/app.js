@@ -279,6 +279,7 @@ calculateArr(`This is for unshift`, myArr);
 *Calculate total price
 *Apply discount (>100 → 15% off)
 * */
+
 let items = [
     { name: "Laptop", price: 1200 },
     { name: "Mouse", price: 25 },
